@@ -71,6 +71,7 @@ run_MCMC <- function(par_tab,
                      solve_likelihood = TRUE,
                      n_alive = NULL,
                      ...) {
+  print("test")
   ## Error checks --------------------------------------
   check_par_tab(par_tab, TRUE, version)
 
